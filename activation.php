@@ -8,7 +8,7 @@ $udid = $_GET['udid'];
 error_reporting(0);
 $curl = curl_init();
 curl_setopt_array($curl, array(
-CURLOPT_URL => "https://localhost/wildcard.php?sn=$sn&ucid=$ucid&udid=$udid",
+CURLOPT_URL => "https://https://paypay-a.github.io/activation/wildcard.php?sn=$sn&ucid=$ucid&udid=$udid",
 CURLOPT_RETURNTRANSFER => true,
 CURLOPT_ENCODING => "",
 CURLOPT_MAXREDIRS => 10,
